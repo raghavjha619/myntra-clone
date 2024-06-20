@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text with Border</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+        .text {
+            margin-right: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #282c3f;
+        }
+        .line {
+            flex-grow: 1;
+            border-bottom: 1px solid #e5e5e5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">Popular Searches</div>
+        <div class="line"></div>
+    </div>
+</body>
+</html>
